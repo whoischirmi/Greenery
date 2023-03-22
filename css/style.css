@@ -1,6 +1,8 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Mukta:wght@400;700&family=Open+Sans:wght@400;600&display=swap");
-
+/*ОСТАЛОСЬ: В ФУТЕРЕ СТРОЧКА  С АДРЕСОМ ВЫЛЕЗАЕТ ЗА ПРЕДЕЛЫ ПРИ РАЗМЕРЕ 425PX И МЕНЬШЕ. ПОЧЕМУ???????*/
+/*Обнуляющие стили*/
+/*Очистим все отступы и границы*/
 * {
   padding: 0;
   margin: 0;
@@ -14,6 +16,7 @@
   box-sizing: border-box;
 }
 
+/*Убираем линии обводки некоторых браузеров*/
 :focus,
 :active {
   outline: none;
@@ -25,6 +28,7 @@ a:active {
   text-decoration: none;
 }
 
+/*задаем блочными теги Html5*/
 nav,
 footer,
 aside {
